@@ -1,0 +1,53 @@
+body {
+    background-image: url("gym.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 3px solid antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+.container {
+    width: 300px;
+    border: 5px solid antiquewhite;
+    border-radius: 10px;
+    margin: 80px auto;
+}
+
+#save-el {
+    font-size: 20px;
+}
